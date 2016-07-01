@@ -1,5 +1,5 @@
 {
-  "name": "server-check-login",
+  "name": "check-auth",
   "version": "0.0.1",
   "description": "server check login",
   "main": "index.js",
