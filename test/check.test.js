@@ -1,19 +1,7 @@
-# check-auth
-服务端对客户端的第三方授权登录进行校验
-
-## Installation
-
-node:
-
-```
-$ npm install check-auth
-```
-
-## Usage
-
-
-```js
-var check = require('check-auth');
+/**
+ * Created by wayne on 16-7-1.
+ */
+var check = require('../lib/common');
 var qqParams = {
     type   : 'GET',
     appkey : 'n7zMLj1O1AsZmVn6',
@@ -56,5 +44,3 @@ check({platform:'SinaWeibo',data: weiboParams},function(err,result){
         console.log('SinaWeibo',result);
     }
 });
-
-```

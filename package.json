@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/WayneLiang/server-check-login/issues"
   },
-  "homepage": "https://github.com/WayneLiang/server-check-login#readme"
+  "homepage": "https://github.com/WayneLiang/server-check-login#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "superagent": "^2.0.0"
+  }
 }
